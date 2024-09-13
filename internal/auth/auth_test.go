@@ -19,5 +19,5 @@ func TestGetApiKey(t *testing.T) {
 		t.Fatalf("expected: %v, got: %v", want, got)
 	}
 
-	t.Fatalf("Force Fail")
+	t.Fatalf("Force Fail!!")
 }
