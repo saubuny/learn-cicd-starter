@@ -18,6 +18,4 @@ func TestGetApiKey(t *testing.T) {
 	if !reflect.DeepEqual(want, got) {
 		t.Fatalf("expected: %v, got: %v", want, got)
 	}
-
-	t.Fatalf("Force Fail!!")
 }
